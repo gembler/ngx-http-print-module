@@ -13,11 +13,11 @@ The way to Print everything on Nginx.
 ### print_hostname
 
 
-- Syntax:   **print_hostname** *header_name*;
-- Default:  —
-- Context:  http, server, location, if in location
+- Syntax: **print_hostname** *header_name*;
+- Default: —
+- Context: http, server, location, if in location
 
-Print **hostname** into Reponse Header.
+Print **hostname** into Response Header.
 
 ## Example Configuration
 
