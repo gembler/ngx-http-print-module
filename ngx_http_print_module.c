@@ -93,9 +93,7 @@ ngx_http_print_filter(ngx_http_request_t *r)
 {
     ngx_table_elt_t *h;
     ngx_http_print_conf_t *conf;
-    ngx_log_t *log;
 
-    log = r->connection->log;
     conf = ngx_http_get_module_loc_conf(r, ngx_http_print_module);
 
     if (conf->args)
